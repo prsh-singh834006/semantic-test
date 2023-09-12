@@ -6,7 +6,7 @@ name: Validate
 on:
   pull_request:
     branches: [ "main" ]
-    types: ['edited']
+    types: [opened, edited, synchronize, reopened]
 
 jobs:
   build:

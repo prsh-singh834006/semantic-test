@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Validate PR Tile
-        uses: prsh-singh834006/validate-pr-title@0.0.1
+        uses: prsh-singh834006/validate-pr-title@0.0.3
 
 

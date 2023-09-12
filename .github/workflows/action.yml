@@ -1,20 +1,13 @@
 name: Octo Organization CI
 
 on:
-  push:
-    branches: [ $default-branch ]
   pull_request:
-    branches: [ $default-branch ]
+    types: [opened, edited, synchronize, reopened]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Run a one-line script
-        run: echo Hello from Octo Organization
       - name: Validate PR Tile
         uses: prsh-singh834006/validate-pr-title@0.0.1
 

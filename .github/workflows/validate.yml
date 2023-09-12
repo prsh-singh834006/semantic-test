@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3  
     - name: Validate PR Title
-      uses: prsh-singh834006/validate-pr-title@0.0.4
+      uses: prsh-singh834006/validate-pr-title@0.0.5

@@ -12,10 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
       - name: Run a one-line script
         run: echo Hello from Octo Organization
-      - name: Validate PR Tile
-        uses: prsh-singh834006/validate-pr-title@0.0.1
+      - name: Validate PR Title
+        uses: prsh-singh834006/validate-pr-title@0.0.2
 
 
